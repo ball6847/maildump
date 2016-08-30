@@ -18,3 +18,4 @@ RUN apk add --update --no-cache \
 EXPOSE 1080 1025
 
 ENTRYPOINT [ "maildump", "-fn", "--smtp-ip", "0.0.0.0", "--http-ip", "0.0.0.0" ]
+
